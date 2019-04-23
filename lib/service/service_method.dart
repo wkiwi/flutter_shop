@@ -36,7 +36,13 @@ Future getHomePageContent() async{
 //获取首页商品热卖
 
 Future getHomePageBeloConten(page) async{
-  // int page = 1;
   print('开始获取火爆专区数据');
   return _request(servicePath['homePageBelowConten'], formData:page);
+}
+
+//获取分类页面数据
+
+Future getCategory() async{
+  print('开始获取分类页面数据');
+  return _request(servicePath['getCategory']);
 }
