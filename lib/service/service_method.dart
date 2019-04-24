@@ -46,3 +46,10 @@ Future getCategory() async{
   print('开始获取分类页面数据');
   return _request(servicePath['getCategory']);
 }
+
+//获取分类页面商品列表数据
+
+Future getGoodsList(data) async{
+  print('开始获取分类页面数据');
+  return _request(servicePath['getMallGoods'],formData: data);
+}
