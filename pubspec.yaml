@@ -25,8 +25,11 @@ dependencies:
   # url_launcher: ^5.0.2
   flutter_easyrefresh: ^1.2.7
   provide: ^1.0.2
-  fluttertoast: ^3.0.1
-
+  # fluttertoast: ^3.0.4
+  fluro: ^1.4.0
+  flutter_html: ^0.9.6
+  shared_preferences: ^0.5.2
+  
 dev_dependencies:
   flutter_test:
     sdk: flutter

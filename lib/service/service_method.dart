@@ -53,3 +53,11 @@ Future getGoodsList(data) async{
   print('开始获取分类页面数据');
   return _request(servicePath['getMallGoods'],formData: data);
 }
+
+
+//获取商品详情数据
+
+Future getGoodsInfoService(data) async{
+  print('开始获取详情页面数据');
+  return _request(servicePath['getGoodDetailById'],formData: data);
+}
