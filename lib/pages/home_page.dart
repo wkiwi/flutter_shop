@@ -3,7 +3,7 @@ import '../service/service_method.dart';
 import 'package:flutter_swiper/flutter_swiper.dart';
 import 'dart:convert';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-// import 'package:url_launcher/url_launcher.dart';
+import 'package:url_launcher/url_launcher.dart';
 import 'package:flutter_easyrefresh/easy_refresh.dart';
 import '../routers/application.dart';
 
@@ -261,23 +261,23 @@ class LeaderPhone extends StatelessWidget {
     return Container(
       child: InkWell(
         onTap: (){
-          // _launchURL();
+          _launchURL();
         },
         child: Image.network(leaderImage),
       )
     );
   }
 
-  // void _launchURL() async {
-  //   // String url = 'tel:' + leaderPhone;
-  //   String url = 'http://baidu.com';
-  //   print(url);
-  //   if(await canLaunch(url)){
-  //     await launch(url);
-  //   }else{
-  //     throw 'url不能进行访问';
-  //   }
-  // }
+  void _launchURL() async {
+    String url = 'tel:' + leaderPhone;
+    // String url = 'http://baidu.com';
+    print(url);
+    if(await canLaunch(url)){
+      await launch(url);
+    }else{
+      throw 'url不能进行访问';
+    }
+  }
 }
 
 //商品推荐模块
