@@ -2,15 +2,12 @@
 
 A new Flutter project.
 
-## Getting Started
+## 项目成果预览
 
-This project is a starting point for a Flutter application.
+| 页面   |  图片  | 页面   | 图片   |
+| -- | -- | -- | -- |
+| 首页   | ![首页](https://raw.githubusercontent.com/wkiwi/flutter_shop/master/assets/demo/1.png "首页")   | 分类页面   |  ![分类页面](https://raw.githubusercontent.com/wkiwi/flutter_shop/master/assets/demo/2.png "分类页面")  |
+| 购物车   | ![购物车](https://raw.githubusercontent.com/wkiwi/flutter_shop/master/assets/demo/3.png "购物车")   | 个人中心   | ![个人中心](https://raw.githubusercontent.com/wkiwi/flutter_shop/master/assets/demo/5.png "个人中心")   |
+| 详情页   |  ![详情页](https://raw.githubusercontent.com/wkiwi/flutter_shop/master/assets/demo/4.png "详情页")  | 
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
-
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
